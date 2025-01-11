@@ -8,17 +8,32 @@ body{
     background-color: rgb(245, 245, 245);
 }
 
-.first-nav{
+#first-nav{
     width: 1600;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
    
 }
+
+.nav-content h1{
+    font-size: 40px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.nav-content button{
+    padding: 10px;
+}
+
 .nav-content{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 1600;
+    width: 1250px;
     height: 100px;
+    
 
 }
 .sing-btn{
@@ -350,3 +365,149 @@ body{
     font-family: Lucida Sans Unicode;
     margin-top: 20px;
 }
+
+.dnated{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.dnated p{
+    width: 1000px;
+    margin-top: 30px;
+    margin-left:30px ;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.78;
+}
+
+.dnated h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left:30px ;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.four-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.four-box button{
+    width: 200px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid rgba(69, 67, 67, 0.193);
+    font-size: 30px;
+}
+
+.inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+}
+.inp input{
+    text-align: center;
+    width: 800px;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+}
+
+.inp button{
+    width: 140px;
+    padding: 10px;
+    background-color: #006A50;
+    border: none;
+    color: white;
+    font: 7px;
+    border-radius: 6px;
+}
+
+.subscrib{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    width: 1000px;
+    height: 300px;
+    
+}
+.subscrib p{
+    width: 600px;
+    margin-top: 30px;
+    margin-left:30px ;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.78;
+}
+
+.subscrib h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left:30px ;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.subscrib input{
+    width: 600px;
+   
+    margin-top: 20px;
+    border-radius:4px ;
+    border: none;
+    padding: 20px;
+}
+
+
+.size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscrib button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius:5px ;
+    background-color: #006A50;
+   color: white;
+}
+
+.last{
+    text-align: center;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.last h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left:30px ;
+    font-family: "Gill Sans", sans-serif;
+    margin-bottom: 40px;
+}
+
+.last img{
+    
+    margin-bottom: 50px;
+    margin-left: 20px;
+    
+}
+
